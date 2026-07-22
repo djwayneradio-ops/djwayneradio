@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Wayne Radio</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #212529;
+            --text-muted: #6c757d;
+            --accent: #0d6efd;
+            --border-color: #dee2e6;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 680px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 10px 0;
+            letter-spacing: -0.5px;
+        }
+        p.subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin: 0;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .btn-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            background: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+        .contact-box {
+            background: var(--bg-color);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+        }
+        .contact-box a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 40px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>DJ Wayne Radio</h1>
+            <p class="subtitle">Monk Mode • Mind, Body, Soul & Sound</p>
+        </header>
+
+        <div class="section">
+            <h2>Latest Mixes & Music</h2>
+            <div class="btn-list">
+                <a href="#" class="btn" target="_blank">▶ Stream Latest Afrobeats & 90s House Mix</a>
+                <a href="#" class="btn" target="_blank">▶ Soundcloud / Archive Stream</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Socials</h2>
+            <div class="btn-list">
+                <a href="#" class="btn" target="_blank">Instagram</a>
+                <a href="#" class="btn" target="_blank">YouTube Channel</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Direct Contact</h2>
+            <div class="contact-box">
+                <p>Booking, inquiries, and track drops:</p>
+                <a href="mailto:hello@djwayne.radio">hello@djwayne.radio</a>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2026 DJ Wayne Radio. All Rights Reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
