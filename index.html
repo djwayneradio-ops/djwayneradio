@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DJ Wayne Radio</title>
 <meta name="description" content="Official site of DJ Wayne Radio — mixes, music, and the latest drops.">
-<!-- Favicon: Clean cropped vector shield badge for crisp browser tab display -->
+<!-- Favicon: Clean vector logo badge -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%231B1B3A'/><path d='M30 35 L50 65 L70 35' stroke='%23FFC93C' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/><text x='50' y='75' font-family='Arial, sans-serif' font-weight='900' font-size='22' fill='%23FF6B5E' text-anchor='middle'>WAYNE</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -106,15 +106,12 @@
   .btn-primary{background:var(--ink); color:var(--cream);}
   .btn-secondary{background:transparent; border-color:var(--ink); color:var(--ink);}
 
-  /* Small inline logo badge above the main title */
-  .title-logo-badge {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    object-fit: cover;
+  /* Inline Vector Logo Badge above Official Site */
+  .inline-logo-svg {
+    width: 24px;
+    height: 24px;
     display: inline-block;
     vertical-align: middle;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   }
 
   /* Visualizer signature element */
@@ -189,7 +186,7 @@
   .mix-card h3{font-size:1.15rem;}
   .mix-card .meta{color:var(--ink-soft); font-size:.9rem; margin-top:6px;}
 
-  /* SOCIAL - Single YouTube Placeholder */
+  /* SOCIAL */
   .social-row{
     display:flex;
     justify-content:center;
@@ -208,7 +205,7 @@
     background:var(--coral); color:var(--cream); flex-shrink:0;
   }
 
-  /* SHOUTOUTS / COMMENTS */
+  /* SHOUTOUTS */
   .shout-box{
     background:#fff; border:1px solid var(--line); border-radius:var(--radius);
     padding:28px;
@@ -271,8 +268,12 @@
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
+      <!-- Inline Vector Logo Badge over Official Site -->
       <div class="eyebrow">
-        <img src="watermarked_img_5707082859068540528.png" alt="Logo" class="title-logo-badge">
+        <svg class="inline-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50" fill="#1B1B3A"/>
+          <path d="M30 35 L50 65 L70 35" stroke="#FFC93C" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
         Official Site
       </div>
       <h1>DJ Wayne <span class="accent">Radio.</span></h1>
